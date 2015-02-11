@@ -9,7 +9,7 @@ body{
  -webkit-font-smoothing: antialiased !important;
  -moz-osx-font-smoothing: grayscale !important;
  font-family: $font-stack;
- color: $blue1;
+ color: $colour1;
  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15),0 -5px 3px -10px #FFF;
 }
 
@@ -36,7 +36,7 @@ a,a:hover{
     top: 50%;
     transform: translateY(-50%);
     
-    background: $blue1;
+    background: $colour1;
     color: white;
     text-align: center;
     padding: 30px 0;
@@ -45,7 +45,7 @@ a,a:hover{
     /* Larger than tablet */
     @media (min-width: 550px) {
       box-sizing: border-box;
-      border: 10px solid $blue1;
+      border: 10px solid $colour1;
       background: white;
       color: inherit;
       @include transition(0.5);
@@ -64,7 +64,7 @@ a,a:hover{
 
   i.continue{
     cursor: pointer;
-    color: $blue1;
+    color: $colour1;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -82,14 +82,14 @@ a,a:hover{
  */
 
 .section-contact{
-  // border-top: 1px solid $blue1;
+  // border-top: 1px solid $colour1;
   text-align: center;
   padding: 8rem 0;
   a[href^="mailto"]{
     @include transition(0.5);
     &:hover{
       color: white;
-      background: $blue1;
+      background: $colour1;
     }
   }
   ul{
