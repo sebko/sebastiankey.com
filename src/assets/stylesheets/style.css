@@ -1,0 +1,150 @@
+/**
+ * Variables
+ */
+/**
+ * Mixins
+ */
+@keyframes fadein {
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+
+  to {
+    opacity: 1; } }
+
+@font-face {
+  font-family: 'gt-walsheim';
+  src: url('/assets/fonts/gt-walsheim/gt-walsheim-web.eot');
+  src: url('/assets/fonts/gt-walsheim/gt-walsheim-web.eot?iefix') format('embedded-opentype'), url('/assets/fonts/gt-walsheim/gt-walsheim-web.woff') format('woff'), url('/assets/fonts/gt-walsheim/gt-walsheim-web.ttf') format('truetype'), url('/assets/fonts/gt-walsheim/gt-walsheim-web.svg') format('svg'); }
+
+@font-face {
+  font-family: "foundation-icons";
+  src: url("/assets/fonts/foundation-icons/foundation-icons.eot");
+  src: url("/assets/fonts/foundation-icons/foundation-icons.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/foundation-icons/foundation-icons.woff") format("woff"), url("/assets/fonts/foundation-icons/foundation-icons.ttf") format("truetype"), url("/assets/fonts/foundation-icons/foundation-icons.svg#fontcustom") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.fi-social-rdio:before {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+  content: "\f1d7"; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+body {
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  font-family: gt-walsheim, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(0, 0, 255, 0.9);
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15), 0 -5px 3px -10px #FFF; }
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none; }
+
+/**
+ * Full Screen Splash Section
+ */
+.section-intro {
+  height: 100%;
+  position: relative;
+  padding: 0;
+  -webkit-animation: fadein 2.5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein 2.5s; }
+  .section-intro .banner-text {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background: rgba(0, 0, 255, 0.9);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    cursor: pointer;
+    /* Larger than tablet */
+    /* Larger than desktop */ }
+    @media (min-width: 550px) {
+      .section-intro .banner-text {
+        box-sizing: border-box;
+        border: 10px solid rgba(0, 0, 255, 0.9);
+        background: white;
+        color: inherit;
+        -webkit-transition-property: color, background, border;
+                transition-property: color, background, border;
+        -webkit-transition-duration: 0.5s;
+                transition-duration: 0.5s;
+        -webkit-transition-timing-function: linear;
+                transition-timing-function: linear; }
+        .section-intro .banner-text:hover {
+          color: white;
+          background: blue; } }
+  .section-intro i.continue {
+    cursor: pointer;
+    color: rgba(0, 0, 255, 0.9);
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+    position: absolute;
+    bottom: 0;
+    font-size: 6rem;
+    -webkit-animation: fadein 2.5s;
+    /* Safari, Chrome and Opera > 12.1 */
+    /* Firefox < 16 */
+    /* Internet Explorer */
+    /* Opera < 12.1 */
+    animation: fadein 2.5s; }
+    @media (min-width: 550px) {
+      .section-intro i.continue {
+        font-size: 8rem; } }
+
+/**
+ * Contact
+ */
+.section-contact {
+  text-align: center;
+  padding: 8rem 0; }
+  .section-contact a[href^="mailto"] {
+    -webkit-transition-property: color, background, border;
+            transition-property: color, background, border;
+    -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+            transition-timing-function: linear; }
+    .section-contact a[href^="mailto"]:hover {
+      color: white;
+      background: rgba(0, 0, 255, 0.9); }
+  .section-contact ul li {
+    line-height: 3.6rem;
+    display: inline-block;
+    width: 46px;
+    height: 46px; }
+    .section-contact ul li a {
+      display: inline-block;
+      height: inherit;
+      width: inherit; }
+    .section-contact ul li i {
+      font-size: 2.6rem;
+      line-height: 50px; }
