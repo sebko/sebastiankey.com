@@ -1,16 +1,36 @@
-# humanstxt.org/
-# The humans responsible & technology colophon
+          /\
+         /_.\
+   _,.-'/ `",\'-.,_
+-~^    /______\`~~-^~:
 
-# TEAM
+  ________  _______   ________
+ |\   ____\|\  ___ \ |\   __  \
+ \ \  \___|\ \   __/|\ \  \|\ /\
+  \ \_____  \ \  \_|/_\ \   __  \
+   \|____|\  \ \  \_|\ \ \  \|\  \
+     ____\_\  \ \_______\ \_______\
+    |\_________\|_______|\|_______|
+    \|_________|
+                                                                                            
+                                                                                            
+  ___  __    _______       ___    ___                                                       
+ |\  \|\  \ |\  ___ \     |\  \  /  /|                                                      
+ \ \  \/  /|\ \   __/|    \ \  \/  / /                                                      
+  \ \   ___  \ \  \_|/__   \ \    / /                                                       
+   \ \  \\ \  \ \  \_|\ \   \/  /  /                                                        
+    \ \__\\ \__\ \_______\__/  / /                                                          
+     \|__| \|__|\|_______|\___/ /                                                           
+                         \|___|/
+                                                                                 
+          /\
+         /_.\
+   _,.-'/ `",\'-.,_
+-~^    /______\`~~-^~:         
 
-    Sebastian Key -- <role> -- @https://twitter.com/sebastian_key
+I'm Sebastian Key—the person responsible for the design and
+development of this website. Currently Looking for a job as a Full Stack or
+Front End Developer.
 
-# THANKS
+Thanks for taking the time to visit.
 
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3, JavaScript
-    Jekyll, Lanyon/Poole, HTML5 Boilerplate
-    Yeoman, Jekyllized
+see you on the dark side of the moon...
