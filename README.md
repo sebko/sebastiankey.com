@@ -1,6 +1,6 @@
 ## Sebastian Key
 
-In the spirit of sharing, I’ve decided to open-source my website [sebastian.com](https://github.com/sebko/sebastiankey.com).
+In the spirit of sharing, I’ve decided to open-source my website [sebastian.com](http://www.sebastiankey.com).
 Now you know all of my secrets!
 
 ## Requirements
@@ -16,7 +16,7 @@ Now you know all of my secrets!
 
 ## Getting things running locally
 
-    $ git clone git@github.com:jonsuh/jonsuh.com.git
+    $ git clone git@github.com:sebko/sebastiankey.com.git
     $ cd sebastiankey.com
     $ npm install
     $ bower install
