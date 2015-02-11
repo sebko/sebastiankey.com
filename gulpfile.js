@@ -73,8 +73,7 @@ gulp.task("images", function () {
 gulp.task("fonts", function () {
   // I've edited the original gulpfile to do the following
   // copy src/assets/vendor/ionicons/fonts/ --> /site/assets/fonts
-  return gulp.src(["src/assets/fonts/**","src/assets/vendor/ionicons/fonts/**",
-                  "src/assets/vendor/foundation-icons/**"])
+  return gulp.src(["src/assets/fonts/**","src/assets/vendor/ionicons/fonts/**"])
     .pipe(gulp.dest("site/assets/fonts"))
     .pipe($.size({ title: "fonts" }));
 });
