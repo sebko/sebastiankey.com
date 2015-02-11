@@ -52,7 +52,7 @@ a,a:hover{
 
       &:hover{
         color: white;
-        background: blue;
+        background: $colour1;
       }
     }
 
@@ -85,9 +85,14 @@ a,a:hover{
   // border-top: 1px solid $colour1;
   text-align: center;
   padding: 8rem 0;
+  span{
+    margin-top: 5rem;
+    background: $colour1;
+    color: white;
+  }
   a[href^="mailto"]{
-    @include transition(0.5);
     &:hover{
+      @include transition(0.5);
       color: white;
       background: $colour1;
     }
