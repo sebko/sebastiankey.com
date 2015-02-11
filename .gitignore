@@ -59,7 +59,8 @@ test/
 *.sublime-workspace
 *.sublime-projectcompletions
 
-app/_bower_components
+# Bower Components
+src/assets/vendor
 
 # Output folders
 serve

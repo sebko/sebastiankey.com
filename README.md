@@ -1,6 +1,6 @@
 ## Sebastian Key
 
-In the spirit of sharing, I’ve decided to open-source my website [sebastian.com](http://www.sebastiankey.com).
+In the spirit of sharing, I’ve decided to open-source my website [www.sebastian.com](http://www.sebastiankey.com).
 Now you know all of my secrets!
 
 ## Requirements
@@ -22,4 +22,4 @@ Now you know all of my secrets!
     $ bower install
     $ gulp
 
-If you’ve got questions, feel free shoot me an email! [sebastianwkey@gmail.com](sebastianwkey@gmail.com). Enjoy!
+If you’ve got questions, feel free to shoot me an email! [sebastianwkey@gmail.com](sebastianwkey@gmail.com). Enjoy!
